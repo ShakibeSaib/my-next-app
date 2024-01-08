@@ -15,7 +15,7 @@ module.exports = {
       host: "localhost",
       ref: "origin/main",
       repo: "https://github.com/ShakibeSaib/my-next-app.git",
-      path: "/path/to/deploy-directory",
+      path: "/home/shakibe/Desktop/next-jenkins",
       "pre-deploy-local": "npm install",
       "post-deploy": "npm run build && pm2 reload ecosystem.config.js --env production",
     },
