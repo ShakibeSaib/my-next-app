@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "nextjs-app", // Choose a name that makes sense for your production environment
+      name: "nextjs-app",
       script: "npm",
       args: "start",
       env: {
@@ -10,7 +10,7 @@ module.exports = {
     },
   ],
   deploy: {
-    local: {
+    production: {
       user: "shakibe",
       host: "localhost",
       ref: "origin/dev-shakibe",
