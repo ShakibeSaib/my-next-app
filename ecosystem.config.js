@@ -13,7 +13,7 @@ module.exports = {
     local: {
       user: "shakibe",
       host: "localhost",
-      ref: "origin/main",
+      ref: "origin/dev-shakibe",
       repo: "https://github.com/ShakibeSaib/my-next-app.git",
       path: "/home/shakibe/Desktop/next-app-jenkins",
       "pre-deploy-local": "npm install",
