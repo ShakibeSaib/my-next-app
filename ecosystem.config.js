@@ -4,7 +4,7 @@ module.exports = {
       name: "nextjs-app",
       script: "npm",
       args: "start",
-      env: {
+      env_production: {
         NODE_ENV: "production",
       },
     },
