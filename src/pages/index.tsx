@@ -7,7 +7,7 @@ import React from 'react';
 const Home = () => {
   return (
     <div>
-      <h1>Hello Shakibe</h1>
+      <h1>Shakib Hasan</h1>
     </div>
   );
 };
